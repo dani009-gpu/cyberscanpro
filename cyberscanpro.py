@@ -26,7 +26,7 @@ def scanner_port(ip, port):
     return "OUVERT" if resultat == 0 else "FERME"
 
 # Programme principal
-print("=== CYBERSCAN SIMPLE ===")
+print(" CYBERSCAN SIMPLE ")
 
 while True:
     site = input("\nEntrez un site (ou 'quitter'): ")
